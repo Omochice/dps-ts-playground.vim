@@ -10,6 +10,6 @@ export function getPlaygroundUrl(code: string): string {
   const url = new URL("https://www.typescriptlang.org/play");
   const codeParam = L.compressToEncodedURIComponent(code);
   const hash = `code/${codeParam}`;
-  // FIXME: URLSearchParams が使えない
-  return `${url.href}#${hash}`;
+  url.hash = hash;
+  return url.href;
 }
