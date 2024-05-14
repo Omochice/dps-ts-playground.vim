@@ -1,5 +1,5 @@
-import type { Denops } from "https://deno.land/x/denops_std@v6.4.2/mod.ts";
-import * as fn from "https://deno.land/x/denops_std@v6.4.2/function/mod.ts";
+import type { Denops } from "https://deno.land/x/denops_std@v6.4.3/mod.ts";
+import * as fn from "https://deno.land/x/denops_std@v6.4.3/function/mod.ts";
 import { getPlaygroundUrl } from "./url.ts";
 import { systemopen } from "https://deno.land/x/systemopen@v1.0.0/mod.ts";
 
